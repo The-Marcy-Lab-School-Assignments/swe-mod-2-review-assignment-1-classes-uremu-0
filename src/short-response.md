@@ -32,7 +32,11 @@ In your own words, explain what polymorphism means and why it is useful. Use the
 
 ### Response 2
 
-Your response...
+Polymorphism means that different objects can respond to the same method or interface in different ways. Even though the method name is the same, the behavior can change depending on the object that is using it.
+
+It is useful because it allows us to write flexible and reusable code. With polymorphism, we can treat different objects as if they are the same type, while still allowing each object to have its own specific behavior. This makes code easier to extend—new behaviors can be added without changing existing code—and improves readability and maintainability.
+
+For example, if multiple classes share a method like `makeSound()`, each class can implement it differently, but the code that calls makeSound() doesn’t need to know which specific class it’s working with.
 
 ---
 
