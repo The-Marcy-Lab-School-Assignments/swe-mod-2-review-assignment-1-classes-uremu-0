@@ -15,12 +15,12 @@ For example, a `Song` and a `MediaItem` have an inheritance relationship because
 
 ### Response 1
 
-1. Your response...
-2. Your response...
-3. Your response...
-4. Your response...
-5. Your response...
-6. Your response...
+1. Composition — A car has an engine as one of its parts, but an engine is not a type of car. The engine is a component that the car uses to function.
+2. Inheritance — A dog is a type of animal, so the Dog class would inherit properties and behaviors from the Animal class.
+3. Composition — A classroom contains many students, but a student is not a type of classroom. Students are objects that exist within the classroom.
+4. Inheritance — A rectangle is a specific type of shape, so the Rectangle class would extend the Shape class and inherit its shared properties or methods.
+5. Composition — A computer has a CPU as one of its internal components, but a CPU is not a type of computer. It is a part that helps the computer operate.
+6. Inheritance — A manager is a type of employee, meaning the Manager class would inherit common properties and behavior from the Employee class.
 
 ---
 
@@ -50,6 +50,6 @@ b) Give an example of when you would want to use a static property or method ins
 
 ### Response 3
 
-a) Your response...
+a) An instance property belongs to a specific object created from a class, meaning each instance can have its own value. A static property belongs to the class itself instead of any individual instance, so it is shared across the entire class and accessed using the class name.
 
-b) Your response...
+b) A static property or method is useful when the value or behavior should be shared across all instances of the class. For example, a class might have a static method like `MediaItem.getLibraryName()` that returns the name of the media library, since that value does not need to change for each individual media item.
